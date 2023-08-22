@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.258" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/avd_pay_failed_animation.xml" value="0.1775" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/avd_pay_success_animation.xml" value="0.152" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/dropdown_background.xml" value="0.118" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_confirmation_border.xml" value="0.258" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.258" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.101" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_loading.xml" value="0.258" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_loading_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_para_vector.xml" value="0.258" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_pay_failed_animation.xml" value="0.2375" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/ic_pay_success_animation.xml" value="0.2375" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/spinner_background.xml" value="0.177" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/drawable/splash_screen.xml" value="0.1765" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout-land/driver_profilepage.xml" value="0.2125" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_cashinpage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_confirmpaypage.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_currpayreceiptpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_editprofilepagea.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_editprofilepageb.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_editprofilepagec.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_fullverificationpage.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_homepage.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_intcashinpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_intpaypage.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_languagepage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_payfailedpage.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_payhistory.xml" value="0.4299559471365639" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_payhistorypage.xml" value="0.23076923076923078" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_paylogpage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_paymentreceipt.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_paypage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_paypageb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_payreceiptpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_paysuccesspage.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_profile.xml" value="0.3476190476190476" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_profilepage.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/commuter_receiptpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_confirmwithdrawpage.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editprofilepagea.xml" value="0.2591609134360064" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editprofilepageb.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editprofilepagec.xml" value="0.2488317757009346" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editwdmethodpage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editwdmethodpagea.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editwdmethodpageb.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editwdmethodpagec.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_editwdmethodpaged.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_fullverificationpage.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_handedfarepaypage.xml" value="0.2488317757009346" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_handedpaymentpage.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_homepage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_incomedata.xml" value="0.4" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_incomedatapage.xml" value="0.2" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_intwithdrawpage.xml" value="0.2532088681446908" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_languagepage.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_payrcvhiistory.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_payrecvhistory.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_payrecvhistorypage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_profilepage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_transactionhistorypage.xml" value="0.38915470494417864" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawfailedpage.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawhistory.xml" value="0.72" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawhistorypage.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawmethodpage.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawsuccesspage.xml" value="0.5515923566878981" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawsuccesspagea.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/driver_withdrawsuccesspageb.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/farepay_history.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/login_page.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/signup_pagea.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/signup_pageb.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/signup_pagec.xml" value="0.264" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/layout/signup_paged.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/Anaid Eiram Do/Documents/PERFORMANCE TASKS/[IT26] - CAPSTONE/Capstone2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.258" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

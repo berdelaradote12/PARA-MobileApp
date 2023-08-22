@@ -1,0 +1,203 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Para!</string>
+
+    <string-array name="withdraw_method">
+        <item>Pumili ng withdrawal method...</item>
+        <item>G-Cash</item>
+        <item>PayMaya</item>
+        <item>Cash Pick Up (Palawan)</item>
+        <item>Cash Pick Up (Cebuana Lhuillier)</item>
+    </string-array>
+
+    <string-array name="handedfare_amount">
+        <item>Piliin ang halagang iniabot...</item>
+        <item>17.00</item>
+        <item>30.00</item>
+        <item>45.00</item>
+        <item>60.00</item>
+        <item>75.00</item>
+        <item>90.00</item>
+    </string-array>
+
+    <string-array name="transactionroute_origin">
+        <item>Piliin ang lugar ng pinagmulan...</item>
+        <item>Baclaran</item>
+        <item>EDSA</item>
+        <item>Libertad</item>
+        <item>Gil Puyat</item>
+        <item>Vito Cruz</item>
+        <item>Quirino</item>
+        <item>Pedro Gil</item>
+        <item>United Nations</item>
+        <item>Central Terminal</item>
+        <item>Carriedo</item>
+        <item>Doroteo Jose</item>
+        <item>Bambang</item>
+        <item>Tayuman</item>
+        <item>Blumentritt</item>
+        <item>Abad Santos</item>
+        <item>R. Papa</item>
+        <item>5th Avenue</item>
+        <item>Monumento</item>
+        <item>Balintawak</item>
+        <item>Roosevelt</item>
+    </string-array>
+
+    <string-array name="transactionroute_destination">
+        <item>Piliin ang lugar ng pupuntahan...</item>
+        <item>Baclaran</item>
+        <item>EDSA</item>
+        <item>Libertad</item>
+        <item>Gil Puyat</item>
+        <item>Vito Cruz</item>
+        <item>Quirino</item>
+        <item>Pedro Gil</item>
+        <item>United Nations</item>
+        <item>Central Terminal</item>
+        <item>Carriedo</item>
+        <item>Doroteo Jose</item>
+        <item>Bambang</item>
+        <item>Tayuman</item>
+        <item>Blumentritt</item>
+        <item>Abad Santos</item>
+        <item>R. Papa</item>
+        <item>5th Avenue</item>
+        <item>Monumento</item>
+        <item>Balintawak</item>
+        <item>Roosevelt</item>
+    </string-array>
+
+    <!-- By Diana -->
+    <string name="text1">Magpatuloy</string>
+    <string name="text2">Maging Myembro</string>
+    <string name="text3">Gamitin ang</string>
+    <string name="text4">o</string>
+    <string name="text5">Buong Pangalan</string>
+    <string name="text6">Numero ng Telepono</string>
+    <string name="text7">Gagamiting Username</string>
+    <string name="text8">Gagamiting Password</string>
+    <string name="text9">Sumali bilang</string>
+    <string name="text10">Drayber</string>
+    <string name="text11">Pasahero</string>
+    <string name="text12">Kanselahin</string>
+    <string name="text13">Mabuhay! Bago magpatuloy, mangyari lamang na kumpirmahin ang iyong pagkakakilanlan:</string>
+    <string name="text14">I-upload ang litrato ng iyong driver\'s license.</string>
+    <string name="text15">Pumili ng litrato</string>
+    <string name="text16">Bumalik</string>
+    <string name="text17">Sa anong uri ng pasahero ka nabibilang?</string>
+    <string name="text18">Senior Citizen</string>
+    <string name="text19">PWD</string>
+    <string name="text20">Estudyante</string>
+    <string name="text21">Regular</string>
+    <string name="text22">I-upload ang litrato ng iyong Student / PWD / Senior Citizen ID.</string>
+    <string name="text23">Ina-upload ang litrato…</string>
+    <string name="text24">Ang litrato ay na-upload na!</string>
+    <string name="text25">Hindi ma-upload ang litrato.</string>
+    <string name="text26">Kailangang punan ang field na ito.</string>
+    <string name="text27">Hindi makumpleto ang pag-register.</string>
+    <string name="text28">Naging matagumpay ang pag-register.</string>
+    <string name="text29">May katulad ang gagamiting username.</string>
+    <string name="text30">Ang username o password ay hindi wasto.</string>
+    <string name="text31">Ang username o password ay hindi valid.</string>
+    <string name="text32">Mangyaring pahintulutan ang aming app na i-access ang iyong gallery.</string>
+    <string name="text33">Mangyaring pahintulutan ang aming app na i-access ang iyong camera.</string>
+    <string name="text34">Ang password ay hindi ligtas.</string>
+    <string name="text35">Ang password ay ligtas.</string>
+    <string name="text36">(Gumamit ng simbolo, letra, at numero.)</string>
+    <string name="text37">(Siguraduhing binubuo lamang ng 11 numero.)</string>
+
+    <!-- By Daniel -->
+    <string name="text101">Kasalukuyang Kita</string>
+    <string name="text102">I-withdraw ang Kita</string>
+    <string name="text103">Mga Transaksyon</string>
+    <string name="text104">Paraan ng Pag-withdraw</string>
+    <string name="text105">Tanggalin</string>
+    <string name="text106">Numero ng Plaka</string>
+    <string name="text107">Maglagay ng Amount</string>
+    <string name="text108">I-withdraw lahat</string>
+    <string name="text109">I-withdraw gamit ang</string>
+    <string name="text110">PAALALA: Ang kita na nais i-withdraw sa napiling method ay hindi agad makukuha sa mismong araw ng iyong request. Maaaring matanggap ang kita sa pagitan ng 2 hanggang 3 araw.</string>
+    <string name="text111">Tagumpay! Kasalukuyang pinoproseso ang iyong request. Hintayin ang text message ukol sa pagkuha ng kita sa aming partner merchant.</string>
+    <string name="text112">Tagumpay! Ang iyong withdrawal request ay naproseso na.</string>
+    <string name="text113">Mangyaring kumpirmahin ang iyong password para maproseso ang withdrawal request.</string>
+    <string name="text114">Hindi maproseso ang request. Maaaring hindi sapat ang balanse sa halagang nais i-withdraw.</string>
+    <string name="text115">Ulitin</string>
+    <string name="text116">Maglagay ng plate number</string>
+    <string name="text117">Detalye</string>
+    <string name="text118">Sangay</string>
+    <string name="text119">Tirahan</string>
+    <string name="text120">Numero ng Telepono</string>
+    <string name="text121">Ayusin</string>
+    <string name="text122">Mag-add</string>
+    <string name="text123">Iniabot na Pamasahe</string>
+    <string name="text124">Halaga ng ibinayad na pamasahe</string>
+    <string name="text125">(Kung wala sa pagpipilian.)</string>
+    <string name="text126">Iba pang halaga na ibinayad</string>
+    <string name="text127">"Kabuuang Halaga ng Pamasahe "</string>
+    <string name="text128">SUKLI :</string>
+    <string name="text129">Pumili ng withdrawal method…</string>
+    <string name="text130">Piliin ang halagang iniabot…</string>
+    <string name="text131">Tagumpay! Napalitan na ang lengguwahe.</string>
+    <string name="text132">I-withdraw ang Kita mula sa Para!</string>
+    <string name="text133">sa iyong</string>
+    <string name="text134">Ang iyong account ay semi-verified lamang. Mangyaring i-upload ang iyong vaccination card upang ito ay maging fully verified.</string>
+    <string name="text135">I-upload ang iyong vaccination card.</string>
+    <string name="text136">Matagumpay na nai-upload ang iyong vaccination card.</string>
+    <string name="text137">Ang iyong account ay fully verified na.</string>
+    <string name="text138">May discount</string>
+    <string name="text139">Sangay kung saan magka-cash pick up</string>
+    <string name="text140">Kinita Ngayong Araw</string>
+    <string name="text141">Inilabas na Kita</string>
+    <string name="text142">Ibinawas na Boundary</string>
+    <string name="text143">Abiso sa Pagbawas ng Boundary</string>
+    <string name="text144">Ang iyong arawang boundary na nagkakahalaga ng</string>
+    <string name="text145">ay naibawas na.</string>
+    <string name="text146">Tingnan ang higit pa</string>
+    <string name="text147">Mga Inilabas na Kita</string>
+
+    <!-- By Bry -->
+    <string name="text201">Kasalakuyang Balanse ng Wallet</string>
+    <string name="text202">Magbayad ng Pamasahe</string>
+    <string name="text203">Kasaysayan ng Pagbabayad</string>
+    <string name="text204">Ayusin ang Profile</string>
+    <string name="text205">Lengguwahe</string>
+    <string name="text206">Maglagay</string>
+    <string name="text207">Pumili ng paraan ng pag-load</string>
+    <string name="text208">I-linya ang camera ng iyong cellphone sa tapat ng QR code upang mabayaran ang pamasahe.</string>
+    <string name="text209">Pinakabagong Transaksyon</string>
+    <string name="text210">Tingnan ang resibo</string>
+    <string name="text211">Binayaran ni</string>
+    <string name="text212">Palitan ang Password</string>
+    <string name="text213">I-save ang pagbabago</string>
+    <string name="text214">Mangyaring kumpirmahin ang iyong password bago magpatuloy.</string>
+    <string name="text215">Magpatuloy</string>
+    <string name="text216">Kanselahin</string>
+    <string name="text217">Kasalukuyang password</string>
+    <string name="text218">Panibagong password</string>
+    <string name="text219">I-type ulit ang bagong password</string>
+    <string name="text220">Hindi nakita ang QR Code. Mangyaring subukan muli.</string>
+    <string name="text221">Hindi ma-start ang camera.</string>
+    <string name="text223">Kumpirmahin</string>
+    <string name="text224">Tagumpay! Ang Bayad sa Pamasahe ay natanggap na.</string>
+    <string name="text225">Hindi sapat ang balanse ng iyong wallet.</string>
+    <string name="text226">Hanapin ang transaksyon gamit ang petsa.</string>
+    <string name="text227">Ang Payment Reference ay expired na. Mangyaring i-scan muli ang QR Code.</string>
+    <string name="text228">Ilagay ang cash in amount :</string>
+    <string name="text229">Baguhin ang numero ng telepono</string>
+    <string name="text230">Maglagay ng kaarawan</string>
+    <string name="text231">Maglagay ng tirahan</string>
+    <string name="text232">Maglagay ng e-mail</string>
+    <string name="text233">Baguhin ang username</string>
+    <string name="text234">Ang password ay hindi wasto. Mangyaring subukan muli.</string>
+    <string name="text235">Ang mga password ay hindi magkatugma. Mangyaring subukan muli.</string>
+    <string name="text236">Matagumpay na naayos ang iyong profile.</string>
+    <string name="text237">Matagumpay na napalitan ang iyong password.</string>
+    <string name="text238">Maglagay sa Para! Wallet</string>
+    <string name="text239">Matagumpay na nailagay ang amount na</string>
+    <string name="text240">sa iyong wallet.</string>
+    <string name="text241">Pinagmulan</string>
+    <string name="text242">Piliin ang pinagmulan ng ruta....</string>
+    <string name="text243">Destinasyon</string>
+    <string name="text244">Piliin ang pupuntahan ng ruta....</string>
+
+</resources>

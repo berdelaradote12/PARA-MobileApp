@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/internal_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/handed_fare_background" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="27dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text124"
+            android:textColor="#FFFFFF"
+            android:textSize="20.6sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+        <TextView
+            android:id="@+id/selectedFareAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text130"
+            android:textColor="#B2FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <ImageView
+            android:id="@+id/textBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toBottomOf="@+id/selectedFareAmount"
+            app:srcCompat="@drawable/white_textbox_line_thick" />
+
+        <Spinner
+            android:id="@+id/fareAmountSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="-44dp"
+            android:dropDownSelector="@android:drawable/spinner_background"
+            android:entries="@array/handedfare_amount"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="@+id/fareAmountButton"
+            app:layout_constraintEnd_toStartOf="@+id/fareAmountButton" />
+
+        <ImageButton
+            android:id="@+id/fareAmountButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/dropdown_button"
+            app:layout_constraintBottom_toBottomOf="@+id/textBox10"
+            app:layout_constraintEnd_toEndOf="@+id/textBox10" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text125"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toBottomOf="@+id/textBox10" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text126"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="PHP"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <EditText
+            android:id="@+id/otherFareAmount"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="0.00"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B2FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox11"
+            app:layout_constraintStart_toStartOf="@+id/textBox11" />
+
+        <ImageView
+            android:id="@+id/textBox11"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toEndOf="@+id/textView24"
+            app:layout_constraintTop_toTopOf="@+id/textView24"
+            app:srcCompat="@drawable/white_textbox_line_thick_short" />
+
+        <TextView
+            android:id="@+id/selectedRouteOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text241"
+            android:textColor="#B2FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textBox12"
+            app:layout_constraintBottom_toTopOf="@+id/textBox12" />
+
+        <Spinner
+            android:id="@+id/selRouteOriSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="-44dp"
+            android:dropDownSelector="@android:drawable/spinner_background"
+            android:entries="@array/transactionroute_origin"
+            android:spinnerMode="dialog"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="@+id/selRouteOriButton"
+            app:layout_constraintEnd_toStartOf="@+id/selRouteOriButton" />
+
+        <ImageButton
+            android:id="@+id/selRouteOriButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/dropdown_button"
+            app:layout_constraintBottom_toTopOf="@+id/textBox12"
+            app:layout_constraintEnd_toEndOf="@+id/textBox12" />
+
+        <ImageView
+            android:id="@+id/textBox12"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="@+id/textView24"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:srcCompat="@drawable/white_textbox_line_thick_short" />
+
+        <TextView
+            android:id="@+id/selectedRouteDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text243"
+            android:textColor="#B2FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textBox13"
+            app:layout_constraintBottom_toTopOf="@+id/textBox12" />
+
+        <Spinner
+            android:id="@+id/selRouteDstSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="-44dp"
+            android:dropDownSelector="@android:drawable/spinner_background"
+            android:entries="@array/transactionroute_destination"
+            android:spinnerMode="dialog"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="@+id/selRouteDstButton"
+            app:layout_constraintEnd_toStartOf="@+id/selRouteDstButton" />
+
+        <ImageButton
+            android:id="@+id/selRouteDstButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/dropdown_button"
+            app:layout_constraintBottom_toTopOf="@+id/textBox13"
+            app:layout_constraintEnd_toEndOf="@+id/textBox13" />
+
+        <ImageView
+            android:id="@+id/textBox13"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintEnd_toEndOf="@+id/textBox11"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:srcCompat="@drawable/white_textbox_line_thick_short" />
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView16"
+            app:srcCompat="@drawable/withdraw_page_dropdown_background" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text127"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/roboto"
+            android:text="PHP"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:srcCompat="@drawable/menu_background_oblong" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <Button
+            android:id="@+id/discountedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="27dp"
+            android:background="@drawable/white_button_long"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text138"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#1c3d67"
+            android:textIsSelectable="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF"
+            app:backgroundTintMode="multiply"
+            app:layout_constraintEnd_toEndOf="@+id/imageView17"
+            app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text128"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageView18"
+            app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+        <Button
+            android:id="@+id/intWithdrawButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="140dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text1"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text216"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

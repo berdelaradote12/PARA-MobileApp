@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="SplashTheme" parent="CapstoneTheme">
+        <!-- Splash screen. -->
+        <item name="android:windowBackground">@drawable/ic_loading_screen</item>
+    </style>
+</resources>

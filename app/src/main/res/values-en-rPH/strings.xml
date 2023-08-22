@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="withdraw_method">
+        <item>Choose withdrawal method...</item>
+        <item>G-Cash</item>
+        <item>PayMaya</item>
+        <item>Cash Pick Up (Palawan)</item>
+        <item>Cash Pick Up (Cebuana Lhuillier)</item>
+    </string-array>
+
+    <string-array name="handedfare_amount">
+        <item>Choose handed fare payment...</item>
+        <item>17.00</item>
+        <item>30.00</item>
+        <item>45.00</item>
+        <item>60.00</item>
+        <item>75.00</item>
+        <item>90.00</item>
+    </string-array>
+
+    <string-array name="transactionroute_origin">
+        <item>Choose the place of origin...</item>
+        <item>Baclaran</item>
+        <item>EDSA</item>
+        <item>Libertad</item>
+        <item>Gil Puyat</item>
+        <item>Vito Cruz</item>
+        <item>Quirino</item>
+        <item>Pedro Gil</item>
+        <item>United Nations</item>
+        <item>Central Terminal</item>
+        <item>Carriedo</item>
+        <item>Doroteo Jose</item>
+        <item>Bambang</item>
+        <item>Tayuman</item>
+        <item>Blumentritt</item>
+        <item>Abad Santos</item>
+        <item>R. Papa</item>
+        <item>5th Avenue</item>
+        <item>Monumento</item>
+        <item>Balintawak</item>
+        <item>Roosevelt</item>
+    </string-array>
+
+    <string-array name="transactionroute_destination">
+        <item>Choose the place of destination...</item>
+        <item>Baclaran</item>
+        <item>EDSA</item>
+        <item>Libertad</item>
+        <item>Gil Puyat</item>
+        <item>Vito Cruz</item>
+        <item>Quirino</item>
+        <item>Pedro Gil</item>
+        <item>United Nations</item>
+        <item>Central Terminal</item>
+        <item>Carriedo</item>
+        <item>Doroteo Jose</item>
+        <item>Bambang</item>
+        <item>Tayuman</item>
+        <item>Blumentritt</item>
+        <item>Abad Santos</item>
+        <item>R. Papa</item>
+        <item>5th Avenue</item>
+        <item>Monumento</item>
+        <item>Balintawak</item>
+        <item>Roosevelt</item>
+    </string-array>
+
+    <!-- By Diana -->
+    <string name="text1">Continue</string>
+    <string name="text2">Become a Member</string>
+    <string name="text3">Join using</string>
+    <string name="text4">or</string>
+    <string name="text5">Full Name</string>
+    <string name="text6">Phone Number</string>
+    <string name="text7">Preferred Username</string>
+    <string name="text8">Preferred Password</string>
+    <string name="text9">Join as</string>
+    <string name="text10">Driver</string>
+    <string name="text11">Commuter</string>
+    <string name="text12">Cancel</string>
+    <string name="text13">Welcome! To continue, please confirm your identity:</string>
+    <string name="text14">Upload your driver\'s license.</string>
+    <string name="text15">Choose photo</string>
+    <string name="text16">Back</string>
+    <string name="text17">What type of commuter are you?</string>
+    <string name="text18">Senior Citizen</string>
+    <string name="text19">PWD</string>
+    <string name="text20">Student</string>
+    <string name="text21">Regular</string>
+    <string name="text22">Upload your Student / PWD / Senior Citizen ID.</string>
+    <string name="text23">Uploading photo…</string>
+    <string name="text24">Photo uploaded!</string>
+    <string name="text25">Photo cannot be uploaded.</string>
+    <string name="text26">Required field.</string>
+    <string name="text27">Registration cannot be completed.</string>
+    <string name="text28">Registration successful.</string>
+    <string name="text29">Username already exist.</string>
+    <string name="text30">Username or password is incorrect.</string>
+    <string name="text31">Username or password is invalid.</string>
+    <string name="text32">Please allow the app to access your gallery.</string>
+    <string name="text33">Please allow the app to access your camera.</string>
+    <string name="text34">Password is too weak. </string>
+    <string name="text35">Strong password.</string>
+    <string name="text36">(Use symbol, letter, and number).</string>
+    <string name="text37">(Must contain 11 numbers only.)</string>
+
+    <!-- By Daniel -->
+    <string name="text101">Current income</string>
+    <string name="text102">Withdraw income</string>
+    <string name="text103">Transactions</string>
+    <string name="text104">Withdrawal Method</string>
+    <string name="text105">Remove</string>
+    <string name="text106">Plate Number</string>
+    <string name="text107">Add Amount</string>
+    <string name="text108">Withdraw all</string>
+    <string name="text109">Withdraw using</string>
+    <string name="text110">NOTICE: Your withdrawal request can not be process on the same day. Withdrawn income can be received between 2 to three days.</string>
+    <string name="text111">Success! The system is currently processing your request. Wait for a text message on how to retrieve your income from our partner merchant.</string>
+    <string name="text112">Tagumpay! Your withdrawal request were already processed.</string>
+    <string name="text113">Please confirm your password to process your withdrawal request.</string>
+    <string name="text114">Request cannot be processed. You might have an insufficient balance for withdrawal.</string>
+    <string name="text115">Retry</string>
+    <string name="text116">Add plate number</string>
+    <string name="text117">Details</string>
+    <string name="text118">Branch</string>
+    <string name="text119">Address</string>
+    <string name="text120">Phone Number</string>
+    <string name="text121">Edit</string>
+    <string name="text122">Add</string>
+    <string name="text123">Handed Fare</string>
+    <string name="text124">Fare payment amount</string>
+    <string name="text125">(If not on the choices.)</string>
+    <string name="text126">Other amount paid</string>
+    <string name="text127">Total Fare Amount</string>
+    <string name="text128">CHANGE :</string>
+    <string name="text129">Choose withdrawal method…</string>
+    <string name="text130">Choose amount handed…</string>
+    <string name="text131">Success! Language changed.</string>
+    <string name="text132">Withdraw Income from Para!</string>
+    <string name="text133">to your</string>
+    <string name="text134">Your account is only semi-verified. Please upload your vaccination card for your account to become fully verified.</string>
+    <string name="text135">Upload your vaccination card.</string>
+    <string name="text136">Your vaccination card was successfully uploaded.</string>
+    <string name="text137">Your account is fully verified.</string>
+    <string name="text138">With discount</string>
+    <string name="text139">Cash pick up branch</string>
+    <string name="text140">Today\'s Income</string>
+    <string name="text141">Withdrawn Income</string>
+    <string name="text142">Boundary Deducted</string>
+    <string name="text143">Boundary Deduction Alert</string>
+    <string name="text144">Your daily boundary amounting</string>
+    <string name="text145">is already deducted.</string>
+    <string name="text146">See more</string>
+    <string name="text147">Income Withdrawn</string>
+
+    <!-- By Bry -->
+    <string name="text201">Current Wallet Balance</string>
+    <string name="text202">Pay Fare</string>
+    <string name="text203">Payment History</string>
+    <string name="text204">Edit Profile</string>
+    <string name="text205">Language</string>
+    <string name="text206">Cash In</string>
+    <string name="text207">Choose cash in method</string>
+    <string name="text208">Align your phone camera in front of the QR code to pay your fare.</string>
+    <string name="text209">Most Recent Transaction</string>
+    <string name="text210">Check receipt</string>
+    <string name="text211">Paid by</string>
+    <string name="text212">Change password</string>
+    <string name="text213">Save changes</string>
+    <string name="text214">Please confirm your password to continue.</string>
+    <string name="text215">Continue</string>
+    <string name="text216">Cancel</string>
+    <string name="text217">Current password</string>
+    <string name="text218">New password</string>
+    <string name="text219">Re-type password</string>
+    <string name="text220">QR Code not found. Please try again.</string>
+    <string name="text223">Confirm</string>
+    <string name="text224">Success! Fare Payment received.</string>
+    <string name="text226">Find transaction by date.</string>
+    <string name="text227">Payment Reference already expired. Please scan the QR code again.</string>
+    <string name="text228">Input cash in amount :</string>
+    <string name="text229">Change phone number</string>
+    <string name="text230">Add birthday</string>
+    <string name="text231">Add address</string>
+    <string name="text232">Add e-mail</string>
+    <string name="text233">Change username</string>
+    <string name="text234">Password is incorrect. Please try again.</string>
+    <string name="text235">Passwords do not match. Please try again.</string>
+    <string name="text237">Password updated successfully.</string>
+    <string name="text221">Cannot start the camera.</string>
+    <string name="text225">Insufficient wallet balance.</string>
+    <string name="text236">Profile updated successfully.</string>
+    <string name="text238">Add to Para! Wallet</string>
+    <string name="text239">Successfully added the amount</string>
+    <string name="text240">to your wallet.</string>
+    <string name="app_name">Para!</string>
+    <string name="text241">Origin</string>
+    <string name="text242">Choose the route origin</string>
+    <string name="text243">Destination</string>
+    <string name="text244">Choose the route destination</string>
+
+</resources>

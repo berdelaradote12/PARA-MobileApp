@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/internal_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/text228"
+            android:textColor="#1c3d67"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/backButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/cashInAmount"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:hint="0"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@+id/textBox23"
+            app:layout_constraintStart_toStartOf="@+id/textBox23"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+        <ImageView
+            android:id="@+id/textBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cashInAmount"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <Button
+            android:id="@+id/insCashButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text215"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox23" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text216"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/insCashButton" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

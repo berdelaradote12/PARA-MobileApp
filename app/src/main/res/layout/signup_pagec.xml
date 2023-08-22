@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/external_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/text17"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/scButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-4dp"
+            android:paddingTop="-9dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text18"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <Button
+            android:id="@+id/pwdButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-4dp"
+            android:paddingTop="-9dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text19"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/scButton"
+            app:layout_constraintTop_toBottomOf="@+id/scButton" />
+
+        <Button
+            android:id="@+id/stButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-4dp"
+            android:paddingTop="-9dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/pwdButton"
+            app:layout_constraintTop_toBottomOf="@+id/pwdButton" />
+
+        <Button
+            android:id="@+id/rgButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-4dp"
+            android:paddingTop="-9dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text21"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/stButton"
+            app:layout_constraintTop_toBottomOf="@+id/stButton" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-4dp"
+            android:paddingTop="-9dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text16"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/rgButton"
+            app:layout_constraintTop_toBottomOf="@+id/rgButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

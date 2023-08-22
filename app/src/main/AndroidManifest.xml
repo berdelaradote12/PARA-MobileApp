@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.capstone2">
+    <!-- Permission to use internet to connect on created Firebase Realtime Database -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Permission to access phone's storage-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Permission to access phone's camera -->
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CapstoneTheme">
+        <activity android:name=".commuterLanguagePage" />
+        <activity android:name=".commuterFullVerificationPage" />
+        <activity android:name=".commuterEditProfilePageC" />
+        <activity android:name=".commuterEditProfilePageB" />
+        <activity android:name=".commuterEditProfilePageA" />
+        <activity android:name=".commuterProfilePage" />
+        <activity android:name=".commuterPayHistoryPage" />
+        <activity android:name=".commuterPayReceiptPage" />
+        <activity android:name=".commuterCashInPage" />
+        <activity android:name=".commuterIntCashInPage" />
+        <activity android:name=".commuterCurrPayReceiptPage" />
+        <activity android:name=".commuterPayLogPage" />
+        <activity android:name=".commuterPayFailedPage" />
+        <activity android:name=".commuterPaySuccessPage" />
+        <activity android:name=".commuterConfirmPayPage" />
+        <activity android:name=".commuterPayPage" />
+        <activity android:name=".commuterIntPayPage" />
+        <activity android:name=".commuterHomePage"/>
+
+        <activity android:name=".driverLanguagePage" />
+        <activity android:name=".driverFullVerificationPage" />
+        <activity android:name=".driverEditWdMethodPageA" />
+        <activity android:name=".driverWithdrawMethodPage" />
+        <activity android:name=".driverEditProfilePageC" />
+        <activity android:name=".driverEditProfilePageB" />
+        <activity android:name=".driverEditProfilePageA" />
+        <activity android:name=".driverProfilePage" />
+        <activity android:name=".driverPayRecvHistoryPage" />
+        <activity android:name=".driverHandedFarePayPage" />
+        <activity android:name=".driverWithdrawHistoryPage" />
+        <activity android:name=".driverWithdrawFailedPage" />
+        <activity android:name=".driverWithdrawSuccessPageB" />
+        <activity android:name=".driverWithdrawSuccessPageA" />
+        <activity android:name=".driverConfirmWithdrawPage" />
+        <activity android:name=".driverIntWithdrawPage" />
+        <activity android:name=".driverIncomeDataPage" />
+        <activity android:name=".driverHomePage" />
+
+        <activity android:name=".signupPageD"/>
+        <activity android:name=".signupPageC"/>
+        <activity android:name=".signupPageB"/>
+        <activity android:name=".signupPageA"/>
+        <activity android:name=".loginPage"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/internal_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/error"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox15" />
+
+        <ImageView
+            android:id="@+id/errorLogoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox11"
+            app:layout_constraintEnd_toEndOf="@+id/textBox11"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox15"
+            app:layout_constraintEnd_toEndOf="@+id/textBox15"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile_photo_background" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView27"
+            app:srcCompat="@drawable/profile_with_border" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mang Jose"
+            android:textColor="#1c3d67"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView28" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fullVerificationButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-5dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="Semi Verified"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:icon="@drawable/semi_verified_logo"
+            app:iconGravity="textStart"
+            app:iconPadding="4dp"
+            app:iconSize="17dp"
+            app:iconTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <EditText
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text229"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox11"
+            app:layout_constraintStart_toStartOf="@+id/textBox11" />
+
+        <ImageView
+            android:id="@+id/textBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fullVerificationButton"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/addPlateNum"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text116"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox12"
+            app:layout_constraintStart_toStartOf="@+id/textBox12" />
+
+        <ImageView
+            android:id="@+id/textBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox11"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/addAddress"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text231"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox13"
+            app:layout_constraintStart_toStartOf="@+id/textBox13" />
+
+        <ImageView
+            android:id="@+id/textBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox12"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/addEmail"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text232"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox14"
+            app:layout_constraintStart_toStartOf="@+id/textBox14" />
+
+        <ImageView
+            android:id="@+id/textBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox13"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text233"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox15"
+            app:layout_constraintStart_toStartOf="@+id/textBox15" />
+
+        <ImageView
+            android:id="@+id/textBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox14"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorMessage"
+            app:srcCompat="@drawable/gray_divider" />
+
+        <Button
+            android:id="@+id/newPassButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_long"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text212"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintEnd_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+        <Button
+            android:id="@+id/saveProfButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_long"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text213"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintStart_toEndOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

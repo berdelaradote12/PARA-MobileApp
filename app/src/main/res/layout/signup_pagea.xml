@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/external_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/error"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/textBox6"
+            app:layout_constraintTop_toBottomOf="@+id/textBox6" />
+
+        <ImageView
+            android:id="@+id/errorLogoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox3"
+            app:layout_constraintEnd_toEndOf="@+id/textBox3"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox4"
+            app:layout_constraintEnd_toEndOf="@+id/textBox4"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox5"
+            app:layout_constraintEnd_toEndOf="@+id/textBox5"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox6"
+            app:layout_constraintEnd_toStartOf="@+id/btnPasswordHide"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/goLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox6"
+            app:layout_constraintEnd_toStartOf="@+id/btnPasswordHide"
+            app:srcCompat="@drawable/go_logo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="-16dp"
+            app:layout_constraintBottom_toTopOf="@+id/fullName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/para_logo" />
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text5"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox3"
+            app:layout_constraintStart_toStartOf="@+id/textBox3" />
+
+        <ImageView
+            android:id="@+id/textBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="217dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text6"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox4"
+            app:layout_constraintStart_toStartOf="@+id/textBox4" />
+
+        <ImageView
+            android:id="@+id/textBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/textBox3"
+            app:layout_constraintTop_toBottomOf="@+id/textBox3"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/prefUsername"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text7"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox5"
+            app:layout_constraintStart_toStartOf="@+id/textBox5" />
+
+        <ImageView
+            android:id="@+id/textBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/textBox4"
+            app:layout_constraintTop_toBottomOf="@+id/textBox4"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/prefPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text8"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox6"
+            app:layout_constraintStart_toStartOf="@+id/textBox6" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textBox6"
+            app:layout_constraintEnd_toEndOf="@+id/textBox6"
+            app:srcCompat="@drawable/visible_button" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox6"
+            app:layout_constraintEnd_toEndOf="@+id/textBox6"
+            app:srcCompat="@drawable/not_visible_button" />
+
+        <ImageView
+            android:id="@+id/textBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/textBox5"
+            app:layout_constraintTop_toBottomOf="@+id/textBox5"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="14dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text9"
+            android:textColor="#707070"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorMessage" />
+
+        <Button
+            android:id="@+id/driverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text10"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@id/textBox6"
+            app:layout_constraintStart_toStartOf="@+id/textBox6"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            app:srcCompat="@drawable/gray_divider" />
+
+        <Button
+            android:id="@+id/commuterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text11"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text12"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/driverButton" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

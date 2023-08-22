@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/external_background"
+    android:layout_gravity="center"
+    tools:context=".loginPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/error"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/textBox2"
+            app:layout_constraintTop_toBottomOf="@+id/textBox2" />
+
+        <ImageView
+            android:id="@+id/errorLogoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox1"
+            app:layout_constraintEnd_toEndOf="@+id/textBox1"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/btnPasswordHide"
+            app:layout_constraintEnd_toEndOf="@+id/textBox2"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:layout_constraintBottom_toTopOf="@+id/editUsername"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/para_logo" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="220dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:inputType="text"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/textBox1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/textBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editUsername"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/textBox1"
+            app:layout_constraintTop_toBottomOf="@+id/textBox1" />
+
+        <ImageView
+            android:id="@+id/textBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textBox1"
+            app:layout_constraintTop_toBottomOf="@+id/userPassword"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textBox2"
+            app:layout_constraintEnd_toEndOf="@+id/textBox2"
+            app:srcCompat="@drawable/visible_button" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox2"
+            app:layout_constraintEnd_toEndOf="@+id/textBox2"
+            app:srcCompat="@drawable/not_visible_button" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-4dp"
+            android:paddingEnd="2dp"
+            android:paddingBottom="4dp"
+            android:text="@string/text1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorMessage" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="2dp"
+            android:text="@string/text2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070"
+            app:layout_constraintEnd_toStartOf="@id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            tools:text="@string/text2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            app:srcCompat="@drawable/blue_divider" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text3"
+            android:textColor="#707070"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+        <ImageButton
+            android:id="@+id/googleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintStart_toEndOf="@id/textView1"
+            app:layout_constraintTop_toBottomOf="@id/loginButton"
+            app:srcCompat="@drawable/google_logo" />
+
+        <ImageButton
+            android:id="@+id/facebookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintStart_toEndOf="@id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            app:srcCompat="@drawable/facebook_logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text4"
+            android:textColor="#707070"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/googleButton"
+            app:layout_constraintTop_toBottomOf="@id/loginButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

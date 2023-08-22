@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/internal_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/error"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/textBox19"
+            app:layout_constraintStart_toStartOf="@+id/textBox19"
+            app:layout_constraintTop_toBottomOf="@+id/textBox19" />
+
+        <ImageView
+            android:id="@+id/errorLogoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox17"
+            app:layout_constraintEnd_toStartOf="@+id/btnPasswordHide"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox18"
+            app:layout_constraintEnd_toStartOf="@+id/btnPasswordHide"
+            app:srcCompat="@drawable/error_logo" />
+
+        <ImageView
+            android:id="@+id/errorLogoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox19"
+            app:layout_constraintEnd_toStartOf="@+id/btnPasswordHide"
+            app:srcCompat="@drawable/error_logo" />
+
+        <EditText
+            android:id="@+id/currPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text217"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox17"
+            app:layout_constraintStart_toStartOf="@+id/textBox17" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textBox17"
+            app:layout_constraintEnd_toEndOf="@+id/textBox17"
+            app:srcCompat="@drawable/visible_button" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox17"
+            app:layout_constraintEnd_toEndOf="@+id/textBox17"
+            app:srcCompat="@drawable/not_visible_button" />
+
+        <ImageView
+            android:id="@+id/textBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/backButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/newPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text218"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox18"
+            app:layout_constraintStart_toStartOf="@+id/textBox18" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordViewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textBox18"
+            app:layout_constraintEnd_toEndOf="@+id/textBox18"
+            app:srcCompat="@drawable/visible_button" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordHideB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox18"
+            app:layout_constraintEnd_toEndOf="@+id/textBox18"
+            app:srcCompat="@drawable/not_visible_button" />
+
+        <ImageView
+            android:id="@+id/textBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox17"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <EditText
+            android:id="@+id/confNewPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/text219"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#707070"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textBox19"
+            app:layout_constraintStart_toStartOf="@+id/textBox19" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordViewC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/textBox19"
+            app:layout_constraintEnd_toEndOf="@+id/textBox19"
+            app:srcCompat="@drawable/visible_button" />
+
+        <ImageButton
+            android:id="@+id/btnPasswordHideC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="#00FFFFFF"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/textBox19"
+            app:layout_constraintEnd_toEndOf="@+id/textBox19"
+            app:srcCompat="@drawable/not_visible_button" />
+
+        <ImageView
+            android:id="@+id/textBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBox18"
+            app:srcCompat="@drawable/blue_text_box_line" />
+
+        <Button
+            android:id="@+id/saveNewPassButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blue_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text215"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1C3D67"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorMessage" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_button_small"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="-2dp"
+            android:paddingTop="-2dp"
+            android:paddingEnd="-2dp"
+            android:text="@string/text216"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070"
+            app:layout_constraintStart_toStartOf="@+id/saveNewPassButton"
+            app:layout_constraintTop_toBottomOf="@+id/saveNewPassButton" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/back_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
