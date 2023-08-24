@@ -215,8 +215,8 @@ public class loginPage extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                // Method for an error is received.
-                //Toast.makeText(loginPage.this, "Fail to get data.", Toast.LENGTH_SHORT).show();
+                // Method for when an error is received.
+                // Toast.makeText(loginPage.this, "Fail to get data.", Toast.LENGTH_SHORT).show();
             }
         });
     }
